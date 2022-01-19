@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.three-quote {
+    background-color: #e5e7eb;
+}
