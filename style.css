@@ -1,9 +1,61 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    justify-content: stretch;
+    margin: 0px;
+    
 }
 .header, .footer {
+    background-color: #1f2937;
+    max-height: 200px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+    flex: 1;
+}
+.header-logo {
+    font-size: 24px;
+    text-align: left;
+    color: #f9faf8;
+    flex: 1;
+    padding-left: 24px;
+}
+
+ul, .hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    flex: 1;
+    gap: 16px;
+}
+
+li {
+    display: flex;
+    text-decoration-style: none;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.one-hero {
     background-color: #1f2937;
 }
 
